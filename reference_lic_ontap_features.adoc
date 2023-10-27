@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: reference_lic_ontap_features.html 
+keywords: license, licensing, ontap features, default ontap features 
+summary: ONTAP Select は、ほとんどのONTAP 機能を完全にサポートしています。ONTAP の機能の多くには、クラスタの導入時に各ノードで自動的にライセンスが付与されます。ただし、一部の機能には個別のライセンスが必要です。 
+---
+= ONTAP の機能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+ONTAP Select は、ほとんどのONTAP 機能を完全にサポートしています。ONTAP の機能の多くには、クラスタの導入時に各ノードで自動的にライセンスが付与されます。ただし、一部の機能には個別のライセンスが必要です。
+
+
+NOTE: ハードウェア固有の依存関係を持つONTAP 機能は、一般にONTAP Select ではサポートされていません。
+
+
+
+== ONTAP の機能はデフォルトで自動的に有効になります
+
+ONTAP Select には次の機能が含まれており、デフォルトでライセンスが付与されています。
+
+* NVMe over TCP
+* NFS
+* CIFS
+* iSCSI
+* SnapMirror
+* SnapVault
+* FlexClone
+* SnapRestore
+* 重複排除機能と圧縮機能
+* ONTAP のマルチテナンシー機能
+* ONTAP S3の略
+* NetApp Volume Encryption （規制対象外の国のみ）
+
+
+
+
+== 個別にライセンスされるONTAP の機能
+
+ONTAP 機能がデフォルトで有効になっていない場合は、次のライセンスを別途取得する必要があります。
+
+* SnapLock Enterprise（ONTAP SelectではSnapLockコンプライアンスはサポートされていません）
+* FabricPool
+* Data Availability Service の略
+* FlexCache （コストゼロ）
+* SyncMirror （コストゼロ）
+* MetroCluster SDS （ ONTAP Select プレミアムライセンスサービス）
+
+
+
+NOTE: StorageGRID Webscale を使用するときに FabricPool ライセンスは必要ありません。
+
+.関連情報
+* link:concept_ots_overview.html#comparing-ontap-select-and-ontap-9["ONTAP Select と ONTAP 9 の比較"]
+
