@@ -288,7 +288,6 @@
   <block id="18c27fdda3b31de582a5c418705a0eab" category="paragraph">クラスタが作成されるまで、 30 分程度かかる場合があります。</block>
   <block id="aa28e7538205e834e26c77f5630f8893" category="list-text">クラスタ作成の複数ステップからなるプロセスを監視し、クラスタが正常に作成されたことを確認する。</block>
   <block id="037cb8cf634438a48c4a376dd2eaecea" category="paragraph">ページは一定の間隔で自動的に更新されます。</block>
-  <block id="d4f87fedecd0cb118e567859f3b4f8b0" category="admonition">クラスタの作成処理が開始されても完了しない場合は、定義したONTAP管理パスワードが登録されていない可能性があります。この場合、 admin アカウントの password_changeme123_ を使用して、 ONTAP Select クラスタの管理インターフェイスにアクセスできます。</block>
   <block id="c29c0fa60d66b44a13904899d8712c68" category="open-title">マルチノードクラスタ</block>
   <block id="1c9615c8466b4b5438d388b4200a58b4" category="list-text">* Welcome to ONTAP Select *ポップアップウィンドウが表示されたら、設定の前提条件を満たしていることを確認し、* OK *をクリックします。</block>
   <block id="736cb4ef7019568859d8e044e044c906" category="list-text">[* はじめに（ Getting Started * ） ] ページで、 [* アップロード（ * Upload ） ] をクリックしてローカルワークステーションからライセンスを選択し、 [ 開く（ * Open ） ] をクリックしてライセンスをアップロードします。を繰り返して2つ目のライセンスを追加します。</block>
@@ -3841,4 +3840,5 @@ RAID SyncMirror（RSM）</block>
   <block id="cfc60e5db5da2e3856f4ae65f1b4493b" category="cell">ONTAP Select仮想マシンのサイズ変更（小規模から中規模、中規模から大規模）</block>
   <block id="5afd324114e926d9bb06b382e5c6f40e" category="cell">適用:ライセンスの期限切れ</block>
   <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">○（猶予期間なし）</block>
+  <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">クラスタの作成処理が開始されても完了しない場合は、定義したONTAP管理パスワードが適用されないことがあります。この場合は、NetAppのテクニカルサポートにお問い合わせください。</block>
 </blocks>
