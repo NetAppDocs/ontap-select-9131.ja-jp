@@ -571,12 +571,6 @@ vSphere と VSAN のライセンスがすべてサポートされるようにな
   <block id="bbbb96898e430d9cf7e061ad70ad17ad" category="list-text">vCenter のクレデンシャルを入力し、プラグインのバージョンを選択します。</block>
   <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">[*Register] をクリックします。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
-  <block id="b56253bf92505bda20b38657c778bccf" category="doc">ページタイトルがここに表示されます</block>
-  <block id="5d9328ee3f628e51f1a4f871ccff7313" category="paragraph">このテンプレートは、記事やトピックなど、どのような呼び名でも使用できます。index.adocファイルには、記事ページの正しいキーワードが含まれておらず、それをテンプレートとして使用すると、後で発行の問題が原因で発生する可能性があります。</block>
-  <block id="26739de98ff2a207a5c145caf27c2508" category="admonition">このファイルは、サイドバーにリンクされていなくても公開されるため、最初の公開前に削除してください。いくつかの記事を作成したら、代わりにそれらをスターターとして使用できます。</block>
-  <block id="38b255c5af258b1f086fb7c9aa4f252c" category="paragraph">記事がコンテンツサブフォルダにある場合は、上記の表記を2つ調整する必要があります。</block>
-  <block id="df25e29acec650a07b41041946158355" category="list-text"><block ref="abc9d0bfc8d5688ddd4babf6a5402ee4" prefix="" category="inline-code"></block></block>
-  <block id="97df5ffadc97296dc727ffddf2d2e1fe" category="list-text"><block ref="ff695bd1637208b4929c7ae2085cd551" prefix="" category="inline-code"></block></block>
   <block id="f003eee578389a046f25dba6e783a672" category="summary">ONTAP Select は、組織内の 1 つ以上のプライベートクラウドのサポートに最適です。一般的なユースケースとしては、コモディティサーバ上に構築されたプライベートクラウドにストレージサービスを提供するケースがあります。</block>
   <block id="fb4b04f0bbd3011e95882612761e5f4a" category="doc">プライベートクラウドとデータセンター</block>
   <block id="cc2d9bf42776eb79fe1ddb4e755eff01" category="paragraph">パブリッククラウドと同様に、プライベートクラウドは柔軟性に優れており、設置やティアダウンも迅速に実行できます。また、プライベートクラウドでは、セキュリティと管理が強化されます。</block>
@@ -3841,4 +3835,5 @@ RAID SyncMirror（RSM）</block>
   <block id="5afd324114e926d9bb06b382e5c6f40e" category="cell">適用:ライセンスの期限切れ</block>
   <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">○（猶予期間なし）</block>
   <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">クラスタの作成処理が開始されても完了しない場合は、定義したONTAP管理パスワードが適用されないことがあります。この場合は、NetAppのテクニカルサポートにお問い合わせください。</block>
+  <block id="b5150f2681f3eb5a5b6aab4cbdadad34" category="paragraph">仮想NAS（vNAS）環境では、仮想SAN（VSAN）上のONTAP Selectクラスタ、一部のHCI製品、外付けアレイタイプのデータストアがサポートされます。これらの構成の基盤となるインフラは、データストアの耐障害性を提供します。</block>
 </blocks>
