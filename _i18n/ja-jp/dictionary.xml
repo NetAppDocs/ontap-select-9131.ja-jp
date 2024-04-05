@@ -3836,4 +3836,5 @@ RAID SyncMirror（RSM）</block>
   <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">○（猶予期間なし）</block>
   <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">クラスタの作成処理が開始されても完了しない場合は、定義したONTAP管理パスワードが適用されないことがあります。この場合は、NetAppのテクニカルサポートにお問い合わせください。</block>
   <block id="b5150f2681f3eb5a5b6aab4cbdadad34" category="paragraph">仮想NAS（vNAS）環境では、仮想SAN（VSAN）上のONTAP Selectクラスタ、一部のHCI製品、外付けアレイタイプのデータストアがサポートされます。これらの構成の基盤となるインフラは、データストアの耐障害性を提供します。</block>
+  <block id="8e59a8dddb8fd9611be1f2b3aca8c4fa" category="admonition">ONTAP Select 9.12.1以降では、最大16個の関係を持つソースとしてSVM DRがサポートされるようになりました。SVM DRのサポートは、ソースONTAPのバージョン+2の使用（9.12.1~9.14.1など）に限定されます。</block>
 </blocks>

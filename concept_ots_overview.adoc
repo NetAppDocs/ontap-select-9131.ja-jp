@@ -101,7 +101,6 @@ ONTAP Selectで使用される仮想環境のため、NICオフロード機能�
 速度、二重、フロー制御などのONTAPポートのプロパティの変更はサポートされていません。
 * サービスプロセッサ
 * SVM 移行
-* Storage VMディザスタリカバリ（SVM DR）
 * SnapLock コンプライアンス
 * 改ざん防止Snapshotコピー
 * VMware HCX
