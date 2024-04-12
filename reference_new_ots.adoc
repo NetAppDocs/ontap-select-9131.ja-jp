@@ -32,6 +32,7 @@ ONTAP Select 9.13.1には、いくつかの新機能と改善点が含まれて�
 
 NVMe over TCPのサポート:: ONTAP Select 9.13.1にアップグレードする場合は、NVMe over TCPをサポートする新しいライセンスが必要です。このライセンスは、バージョン9.13.1からONTAP Selectを初めて導入するときに自動的に含まれます。
 VMware ESXiのサポートを更新:: ONTAP 9.13.1以降では、VMware ESXi 8.0 GA（ビルド20513097）がハードウェアバージョン4以降でサポートされます。
+ONTAP Select Deployサポートの更新:: 2024年4月以降、ONTAP Select Deploy 9.13.1はNetApp Support Siteで利用できなくなりました。ONTAP Select Deploy 9.13.1を実行している場合は、できるだけ早くONTAP Select Deploy 9.14.1P2にアップグレードする必要があります。詳細については、を参照してください link:https://library.netapp.com/ecm/ecm_download_file/ECMLP2886733["ONTAP Select 9.14.1リリースノート"^]。
 
 
 
@@ -39,6 +40,8 @@ VMware ESXiのサポートを更新:: ONTAP 9.13.1以降では、VMware ESXi 8.0
 == ONTAP Select 9.12.1
 
 ONTAP Select 9.12.1は、現在のコアONTAP 製品のリリースに新しく開発されたほとんどの機能を活用しています。ONTAP Select 固有の新機能や機能強化は含まれていません。
+
+2024年4月以降、ONTAP Select Deploy 9.12.1はNetApp Support Siteで利用できなくなりました。ONTAP Select Deploy 9.12.1を実行している場合は、できるだけ早くONTAP Select Deploy 9.14.1P2にアップグレードする必要があります。詳細については、を参照してください link:https://library.netapp.com/ecm/ecm_download_file/ECMLP2886733["ONTAP Select 9.14.1リリースノート"^]。
 
 
 
