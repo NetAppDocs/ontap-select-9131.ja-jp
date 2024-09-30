@@ -3295,7 +3295,6 @@ RAID SyncMirror（RSM）</block>
   <block id="58c277c116ff23ffb9879debb95b4968" category="list-text">NVMe over TCPのサポート</block>
   <block id="db5f5d6e1e5a3e29724ce78258556ff1" category="list-text">ONTAP Select 9.13.1にアップグレードする場合は、NVMe over TCPをサポートする新しいライセンスが必要です。このライセンスは、バージョン9.13.1からONTAP Selectを初めて導入するときに自動的に含まれます。</block>
   <block id="5f4c6121d4f63aaa5d6daebc2a2effee" category="list-text">VMware ESXiのサポートを更新</block>
-  <block id="4d8daf3f51ebf7fefb4dfcf900e9b79d" category="list-text">ONTAP 9.13.1以降では、VMware ESXi 8.0 GA（ビルド20513097）がハードウェアバージョン4以降でサポートされます。</block>
   <block id="77e5d3b8719596b41c77222a6711e69b" category="section-title">ONTAP Select 9.12.1</block>
   <block id="05dd50ebf48db80deadf4c9a847c2ce4" category="paragraph">ONTAP Select 9.12.1は、現在のコアONTAP 製品のリリースに新しく開発されたほとんどの機能を活用しています。ONTAP Select 固有の新機能や機能強化は含まれていません。</block>
   <block id="7802fb8cc2dd2205ca511b49141235e0" category="section-title">ONTAP Select 9.11.1</block>
@@ -3858,4 +3857,5 @@ RAID SyncMirror（RSM）</block>
   <block id="79416550309ddcac023464218d55a23d" category="paragraph">大容量階層のサポート契約の終了日が過ぎてもノードは稼働し続けることはできますが、ONTAPの更新をダウンロードしてインストールすることはできません。また、最初にサポート契約を最新の状態にしないかぎり、NetAppのテクニカルサポートにお問い合わせください。</block>
   <block id="9b9568babf180c232b393ba5f95ff4c3" category="paragraph">容量プールのサブスクリプションが期限切れになると、最初に警告が表示されますが、30日後にシステムをシャットダウンすると、更新されたサブスクリプションがDeployサーバにインストールされるまでリブートされません。</block>
   <block id="f99bb666310fb365b4d0029c161a384b" category="admonition">ONTAP Select 9.12.1以降では、ソースとデスティネーションの両方としてSVM DRがサポートされるようになりました。関係の最大数は16です。SVM DRのサポートは、ソースONTAPのバージョン+2の使用に限定されます。たとえば、ONTAP Select 9.12.1ソースは、デスティネーションONTAPバージョン9.12.1、9.13.1、または9.14.1に接続できます。</block>
+  <block id="2908aba1afb68c480565ae68ebe3508c" category="list-text">VMware.13.1以降では、ONTAP 9 8.0.1 GA（ビルド20513097）がハードウェアバージョン4以降でサポートされます。</block>
 </blocks>
