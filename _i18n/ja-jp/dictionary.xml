@@ -2658,7 +2658,6 @@ ESXiまたはKVMに導入できます（Deployのリリースによって異な�
   <block id="bb4535bc16c1e303453a76a7d6669910" category="paragraph"><block ref="bb4535bc16c1e303453a76a7d6669910" category="inline-image-macro-rx" type="image"></block></block>
   <block id="83aee6fb82bd87d789e0851835b555f8" category="admonition">NVRAM パーティションは、専用の VMDK に分割されます。その VMDK は、 ESX バージョン 6.5 以降で使用可能な vNVME ドライバを使用して接続されます。この変更は、ソフトウェア RAID を使用した ONTAP Select のインストールで最も重要です。 RAID コントローラキャッシュによるメリットはありません。</block>
   <block id="20d1ab0feefc64acee2b330a6d8db177" category="summary">NetApp ONTAP Select は、 VMware ESXi ハイパーバイザーを実行するさまざまなコモディティハードウェアサーバに導入可能な Software-Defined Storage アプライアンスです。柔軟性と拡張性に優れたプライベートクラウドインフラの構築に必要な即応性を提供します。このサイトには、ONTAP Select 9.13.1のドキュメントが含まれています。</block>
-  <block id="7436b418bed093768e360d32105591d2" category="doc">ONTAP Select のドキュメント</block>
   <block id="a451fb0a81dc4fb9e6df8ff3f0cd6380" category="summary">リモートオフィス / ブランチオフィス（ ROBO ）環境に ONTAP Select を導入できます。ROBO 環境の計画の一環として、目標を達成するための設定を選択する必要があります。</block>
   <block id="e629f0dfc57ffa98b8aabae83c3e5032" category="doc">リモートオフィスおよびブランチオフィスへの導入</block>
   <block id="1cfe009dafaa293a83a8a143e8aeb868" category="paragraph">ROBO 環境への ONTAP Select の導入時に使用できる設定は主に 2 つあります。</block>
@@ -3858,4 +3857,5 @@ RAID SyncMirror（RSM）</block>
   <block id="9b9568babf180c232b393ba5f95ff4c3" category="paragraph">容量プールのサブスクリプションが期限切れになると、最初に警告が表示されますが、30日後にシステムをシャットダウンすると、更新されたサブスクリプションがDeployサーバにインストールされるまでリブートされません。</block>
   <block id="f99bb666310fb365b4d0029c161a384b" category="admonition">ONTAP Select 9.12.1以降では、ソースとデスティネーションの両方としてSVM DRがサポートされるようになりました。関係の最大数は16です。SVM DRのサポートは、ソースONTAPのバージョン+2の使用に限定されます。たとえば、ONTAP Select 9.12.1ソースは、デスティネーションONTAPバージョン9.12.1、9.13.1、または9.14.1に接続できます。</block>
   <block id="2908aba1afb68c480565ae68ebe3508c" category="list-text">VMware.13.1以降では、ONTAP 9 8.0.1 GA（ビルド20513097）がハードウェアバージョン4以降でサポートされます。</block>
+  <block id="f630830f3860fe406fda620cc5421cf3" category="sidebar">ONTAP Select 9.13.1ドキュメント</block>
 </blocks>
